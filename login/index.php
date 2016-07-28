@@ -1,4 +1,4 @@
-ï»¿<!doctype html>
+<!doctype html>
 <html>
 <head>
 	
@@ -31,7 +31,7 @@
               	<br><br>
 					<h1 class="text-center">Login</h1>
                     <div class="input-group center-block">
-                    <input type="text" id="email_login" class="form-control" placeholder="UsuÃ¡rio" autofocus>
+                    <input type="text" id="email_login" class="form-control" placeholder="Usuário" autofocus>
                     </div>
                     <br><br><br>
                     <div class="input-group center-block">
@@ -51,7 +51,7 @@
 	
     <footer class="mainfooter navbar-default navbar-fixed-bottom">
     	<section>
-        	<p class="text-center footertext col-md-12"> ELR-SIâ„¢ Todos os direitos reservados. </p>
+        	<p class="text-center footertext col-md-12"> ELR-SI™ Todos os direitos reservados. </p>
         </section>    
     </footer>
 	

@@ -1,0 +1,335 @@
+# Translation of Syntax in Romanian
+# This file is distributed under the same license as the Syntax package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-13 08:20:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Syntax\n"
+
+#. Theme Name of the plugin/theme
+msgid "Syntax"
+msgstr "Syntax"
+
+#. Description of the plugin/theme
+msgid "Syntax is a theme designed with writing--and reading--in mind. With large, easy-to-read type, a fixed navigation menu, and a responsive design that looks beautiful on all screen sizes, it's perfect for writers or bloggers who want a clean, sophisticated look and feel for their site."
+msgstr "Syntax este o temă proiectată cu gândul la a scrie și a citi. Cu tipografice generoase, ușor de citit , un meniu de navigare fix și un design responsiv care arată bine pe orice fel de ecran, este perfectă pentru scriitori sau blogeri care doresc un aspect curat și o senzație de sofisticat pentru situl lor."
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Caută"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Cuvinte cheie..."
+
+#: searchform.php:9
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Căutare"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutării pentru: %s"
+
+#: inc/template-tags.php:129
+msgid "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:120
+msgid "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">Featured</a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%3$s\" title=\"%4$s\" rel=\"author\">%5$s</a></span></span>"
+msgstr "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">reprezentativ</a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%3$s\" title=\"%4$s\" rel=\"author\">%5$s</a></span></span>"
+
+#: inc/template-tags.php:124 inc/template-tags.php:135
+msgid "View all posts by %s"
+msgstr "Vezi toate articolele lui %s"
+
+#: inc/template-tags.php:95
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul tău așteaptă moderare."
+
+#: inc/template-tags.php:88
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s la %2$s"
+
+#: inc/template-tags.php:82
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">spune:</span>"
+
+#: inc/template-tags.php:72
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articole mai noi <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articole anterioare"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Navigare articol"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: image.php:106
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Comentariile sunt închise."
+
+#: image.php:104
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackback-urile sunt închise, dar poți <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">lăsa un comentariu</a>."
+
+#: image.php:102
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Comentariile sunt închise, dar poți lăsa un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL de Trackback la articolul tău\" rel=\"trackback\">URL de Trackback</a>."
+
+#: image.php:100
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Adaugă un comentariu</a> sau lasă un trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:87
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Publicat <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> la <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> în <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:21
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Următorul <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:20
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> precedentul"
+
+#: header.php:82
+msgid "Skip to content"
+msgstr "Sari la conținut"
+
+#: header.php:80
+msgid "Menu"
+msgstr "Meniu"
+
+#: header.php:72
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: header.php:67
+msgid "Twitter"
+msgstr "Twitter"
+
+#: header.php:62
+msgid "Path"
+msgstr "Cale"
+
+#: header.php:57
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: header.php:52
+msgid "Google+"
+msgstr "Google+"
+
+#: header.php:47
+msgid "Facebook"
+msgstr "Facebook"
+
+#: functions.php:78
+msgid "Footer Sidebar 1"
+msgstr "Coloana 1 din subsol"
+
+#: functions.php:86
+msgid "Footer Sidebar 2"
+msgstr "Coloana 2 din subsol"
+
+#: functions.php:94
+msgid "Footer Sidebar 3"
+msgstr "Coloana 3 din subsol"
+
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:136
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:53
+msgid "Footer Menu"
+msgstr "Meniu subsol"
+
+#: functions.php:52
+msgid "Primary Menu"
+msgstr "Meniu principal"
+
+#: footer.php:22
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s de %2$s."
+
+#: footer.php:20
+msgid "Proudly powered by %s"
+msgstr "Propulsat de %s"
+
+#: footer.php:20
+msgid "A Semantic Personal Publishing Platform"
+msgstr "O platformă semantică de publicare personală"
+
+#: content.php:55
+msgid "% Comments"
+msgstr "% comentarii"
+
+#: content.php:55
+msgid "1 Comment"
+msgstr "Un comentariu"
+
+#: content.php:55
+msgid "Leave a comment"
+msgstr "Lasă un comentariu"
+
+#: content.php:30
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuă să citești <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:31 content.php:45
+msgid ", "
+msgstr ", "
+
+#: content-single.php:12 content.php:19
+msgid "All %s posts"
+msgstr "Toate articolele %s"
+
+#: content-page.php:23 content-single.php:38 content.php:58 image.php:108
+#: inc/template-tags.php:72 inc/template-tags.php:91
+msgid "Edit"
+msgstr "Editează"
+
+#: content-page.php:18 content-single.php:21 content.php:33 image.php:77
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Se pare că nu putem găsi ceea ce cauți. Probabil o căutare poate ajuta."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Regret, dar nimic nu s-a potrivit cu termenii de căutare. Te rog încearcă din nou cu alte cuvinte cheie."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gata pentru primul articol? <a href=\"%1$s\">Începe de aici</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "N-am găsit nimic"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Comentarii mai noi &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; comentarii mai vechi"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Navigare comentariu"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentariu la &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarii la &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s de comentarii la &ldquo;%2$s&rdquo;"
+
+#: archive.php:63
+msgid "Archives"
+msgstr "Arhive"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Legături"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Citate"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Video"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Imagini"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Note"
+
+#: archive.php:45
+msgid "Yearly Archives: %s"
+msgstr "Arhive anuale: %s"
+
+#: archive.php:42
+msgid "Monthly Archives: %s"
+msgstr "Arhive lunare: %s"
+
+#: archive.php:39
+msgid "Daily Archives: %s"
+msgstr "Arhive zilnice: %s"
+
+#: archive.php:31
+msgid "Author Archives: %s"
+msgstr "Arhivele autorului: %s"
+
+#: archive.php:24
+msgid "Tag Archives: %s"
+msgstr "Arhivele etichetetei: %s"
+
+#: archive.php:21
+msgid "Category Archives: %s"
+msgstr "Arhivele categoriei: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Se pare că nimic nu a fost găsit la  această locație. Poate încerci una dintre legăturile de mai jos sau o căutare?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hopa! Această pagină nu poate fi găsită."
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.com/themes/syntax/"
+msgstr "https://wordpress.com/themes/syntax/"
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"

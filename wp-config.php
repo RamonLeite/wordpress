@@ -53,6 +53,8 @@ define('NONCE_SALT',       '%LN:_/7X]sijf}o+NsXmu(EmIvq:>7$x=!8oT5VW,WS5 M=Oz]is
 
 /**#@-*/
 
+define('FORCE_SSL_ADMIN', true);
+
 /**
  * Prefixo da tabela do banco de dados do WordPress.
  *
