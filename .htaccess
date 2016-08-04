@@ -2,6 +2,9 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 RewriteBase /wordpress/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -10,3 +13,5 @@ RewriteRule . /wordpress/index.php [L]
 </IfModule>
 
 # END WordPress
+
+
