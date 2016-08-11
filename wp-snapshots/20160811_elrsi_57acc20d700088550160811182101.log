@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2016-08-11 18:22:32
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.14
+WORDPRESS:	4.5.3
+PHP INFO:	7.0.8 | SAPI: apache2handler
+SERVER:		Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 4MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+TABLES: total:45 | filtered:0 | create:45 
+FILTERED: [] 
+SQL CREATED: 20160811_elrsi_57acc20d700088550160811182101_database.sql 
+SQL FILE SIZE: 876.48KB (897513) 
+SQL FILE TIME: 2016-08-11 18:22:32 
+SQL RUNTIME: 0.41 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/xampp/apps/wordpress/htdocs 
+ARCHIVE FILE: 20160811_elrsi_57acc20d700088550160811182101_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	101.51MB 
+STATS:	Dirs 735 | Files 6,481 
+SQL ADDED: 20160811_elrsi_57acc20d700088550160811182101_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7216
+    [filename] => C:\xampp\apps\wordpress\htdocs\wp-snapshots\tmp\20160811_elrsi_57acc20d700088550160811182101_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 61.15MB 
+ARCHIVE RUNTIME: 68.41 sec. 
+MEMORY STACK: 4MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [C:/xampp/apps/wordpress/htdocs/wp-snapshots/tmp/20160811_elrsi_57acc20d700088550160811182101_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 876.48KB 
+Installer File: 345.98KB 
+Archive File: 61.15MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 69.78 sec.
+PEAK PHP MEMORY USED: 6MB
+DONE PROCESSING => 20160811_elrsi 2016-08-11 18:23:41
+ 
